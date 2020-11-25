@@ -277,7 +277,7 @@ article p{
 /* RESPONSIVE */
 @media screen and (max-width: 768px){
   .content{
-    padding-top: 40px;
+    margin-top: -10rem;
   }
 
   .content h1 {
@@ -296,7 +296,7 @@ article p{
     margin-left: -5px;
   }
   .floating__img {
-    display: block;
+    display: none;
     margin-left: 0px;
   }
   .floating__img img {
@@ -311,5 +311,8 @@ article p{
   .button {
     width: 10px;
     height: 10px;
+  }
+  .navbar {
+    margin-top: -15rem;
   }
 }
